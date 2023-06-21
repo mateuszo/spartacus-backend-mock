@@ -1,0 +1,1491 @@
+{
+  "/occ/v2/basesites?fields=FULL&lang=en&curr=USD": {
+    "baseSites": [
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2B",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCategoryCode": "1355",
+        "defaultPreviewProductCode": "2116282",
+        "isolated": false,
+        "locale": "en_GB",
+        "name": "Powertools Site",
+        "registrationEnabled": true,
+        "requiresAuthentication": true,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "US",
+                  "name": "United States"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Brooklyn, 100 7th Avenue, New York, 11215",
+                "id": "8796093382679",
+                "line1": "Brooklyn",
+                "line2": "100 7th Avenue",
+                "postalCode": "11215",
+                "shippingAddress": false,
+                "town": "New York",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 40.7127,
+                "longitude": -74.0059
+              },
+              "name": "pw_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": false,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Powertools Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "lambda",
+        "uid": "powertools",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language",
+          "currency"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=powertools)(|\\&.*)$",
+          "(?i)^https?://powertools\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2B",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "isolated": true,
+        "locale": "en_GB",
+        "name": "Powertools Site Standalone",
+        "registrationEnabled": true,
+        "requiresAuthentication": true,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "US",
+                  "name": "United States"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Brooklyn, 100 7th Avenue, New York, 11215",
+                "id": "8796093382679",
+                "line1": "Brooklyn",
+                "line2": "100 7th Avenue",
+                "postalCode": "11215",
+                "shippingAddress": false,
+                "town": "New York",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 40.7127,
+                "longitude": -74.0059
+              },
+              "name": "pw_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": false,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Powertools Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "powertools-standalone",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language",
+          "currency"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=powertools-standalone)(|\\&.*)$",
+          "(?i)^https?://powertools-standalone\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2B",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCatalogId": "powertoolsProductCatalog",
+        "defaultPreviewCategoryCode": "1355",
+        "defaultPreviewProductCode": "2116282",
+        "isolated": false,
+        "name": "Spartacus powertools Site",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "US",
+                  "name": "United States"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Brooklyn, 100 7th Avenue, New York, 11215",
+                "id": "8796093382679",
+                "line1": "Brooklyn",
+                "line2": "100 7th Avenue",
+                "postalCode": "11215",
+                "shippingAddress": false,
+                "town": "New York",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 40.7127,
+                "longitude": -74.0059
+              },
+              "name": "pw_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": false,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Powertools Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "sparta",
+        "uid": "powertools-spa",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language",
+          "currency"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=powertools-spa)(|\\&.*)$",
+          "(?i)^https?://powertools-spa\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://localhost(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://[^/]+/powertools-spa(|/.*|\\?.*|#.*)$",
+          "https?://[^/]+/powertools-spa(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCategoryCode": "caps",
+        "defaultPreviewProductCode": "300441142",
+        "isolated": false,
+        "locale": "en_GB",
+        "name": "Apparel Site UK",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "GBP",
+                "name": "Pound",
+                "symbol": "£"
+              }
+            ],
+            "defaultCurrency": {
+              "active": false,
+              "isocode": "GBP",
+              "name": "Pound",
+              "symbol": "£"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "DE",
+                  "name": "Germany"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Gartenfelder Str. 29-37, 13599, Berlin, Germany",
+                "id": "8796095807511",
+                "line2": "Gartenfelder Str. 29-37",
+                "phone": "+49 3028 50102802",
+                "postalCode": "13599",
+                "shippingAddress": false,
+                "town": "Berlin",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 52.54831,
+                "longitude": 13.24964
+              },
+              "name": "ap_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Apparel Store UK",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "apparel-uk",
+        "urlEncodingAttributes": [
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=apparel-uk)(|\\&.*)$",
+          "(?i)^https?://apparel-uk\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://apparel\\.uk\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "isolated": true,
+        "locale": "en_GB",
+        "name": "Apparel Site UK Standalone",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "GBP",
+                "name": "Pound",
+                "symbol": "£"
+              }
+            ],
+            "defaultCurrency": {
+              "active": false,
+              "isocode": "GBP",
+              "name": "Pound",
+              "symbol": "£"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "DE",
+                  "name": "Germany"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Gartenfelder Str. 29-37, 13599, Berlin, Germany",
+                "id": "8796095807511",
+                "line2": "Gartenfelder Str. 29-37",
+                "phone": "+49 3028 50102802",
+                "postalCode": "13599",
+                "shippingAddress": false,
+                "town": "Berlin",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 52.54831,
+                "longitude": 13.24964
+              },
+              "name": "ap_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Apparel Store UK",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "apparel-uk-standalone",
+        "urlEncodingAttributes": [
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=apparel-uk-standalone)(|\\&.*)$",
+          "(?i)^https?://apparel-uk-standalone\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://apparel\\.uk\\.standalone\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "de",
+          "name": "German",
+          "nativeName": "Deutsch"
+        },
+        "defaultPreviewCategoryCode": "caps",
+        "defaultPreviewProductCode": "300441142",
+        "isolated": false,
+        "locale": "en_GB",
+        "name": "Apparel Site DE",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": true,
+                "isocode": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "EUR",
+              "name": "Euro",
+              "symbol": "€"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "DE",
+                  "name": "Germany"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Gartenfelder Str. 29-37, 13599, Berlin, Germany",
+                "id": "8796095807511",
+                "line2": "Gartenfelder Str. 29-37",
+                "phone": "+49 3028 50102802",
+                "postalCode": "13599",
+                "shippingAddress": false,
+                "town": "Berlin",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 52.54831,
+                "longitude": 13.24964
+              },
+              "name": "ap_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "de",
+              "name": "German",
+              "nativeName": "Deutsch"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": false,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Apparel Store DE",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "apparel-de",
+        "urlEncodingAttributes": [
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=apparel-de)(|\\&.*)$",
+          "(?i)^https?://apparel-de\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://apparel\\.de\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "de",
+          "name": "German",
+          "nativeName": "Deutsch"
+        },
+        "isolated": true,
+        "locale": "en_GB",
+        "name": "Apparel Site DE Standalone",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": true,
+                "isocode": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "EUR",
+              "name": "Euro",
+              "symbol": "€"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "DE",
+                  "name": "Germany"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Gartenfelder Str. 29-37, 13599, Berlin, Germany",
+                "id": "8796095807511",
+                "line2": "Gartenfelder Str. 29-37",
+                "phone": "+49 3028 50102802",
+                "postalCode": "13599",
+                "shippingAddress": false,
+                "town": "Berlin",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 52.54831,
+                "longitude": 13.24964
+              },
+              "name": "ap_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "de",
+              "name": "German",
+              "nativeName": "Deutsch"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": false,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Apparel Store DE",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "apparel-de-standalone",
+        "urlEncodingAttributes": [
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=apparel-de-standalone)(|\\&.*)$",
+          "(?i)^https?://apparel-de-standalone\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://apparel\\.de\\.standalone\\.[^/]+(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCatalogId": "apparelProductCatalog",
+        "defaultPreviewCategoryCode": "caps",
+        "defaultPreviewProductCode": "300441142",
+        "isolated": false,
+        "name": "Spartacus Apparel UK Site",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "GBP",
+                "name": "Pound",
+                "symbol": "£"
+              }
+            ],
+            "defaultCurrency": {
+              "active": false,
+              "isocode": "GBP",
+              "name": "Pound",
+              "symbol": "£"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "DE",
+                  "name": "Germany"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Gartenfelder Str. 29-37, 13599, Berlin, Germany",
+                "id": "8796095807511",
+                "line2": "Gartenfelder Str. 29-37",
+                "phone": "+49 3028 50102802",
+                "postalCode": "13599",
+                "shippingAddress": false,
+                "town": "Berlin",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 52.54831,
+                "longitude": 13.24964
+              },
+              "name": "ap_warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Apparel Store UK",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "sparta",
+        "uid": "apparel-uk-spa",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language",
+          "currency"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=apparel-uk-spa)(|\\&.*)$",
+          "(?i)^https?://apparel-uk-spa\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://localhost(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://[^/]+/apparel-uk-spa(|/.*|\\?.*|#.*)$",
+          "https?://[^/]+/apparel-uk-spa(|/.*|\\?.*)$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCatalogId": "electronicsProductCatalog",
+        "defaultPreviewCategoryCode": "575",
+        "defaultPreviewProductCode": "2053367",
+        "isolated": false,
+        "locale": "en_GB",
+        "name": "Electronics Site",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "JPY",
+                "name": "Japanese Yen",
+                "symbol": "¥"
+              },
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "JP",
+                  "name": "Japan"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "1-5-16 Takadanobaba, Tokio, 169-0075",
+                "id": "8796100788247",
+                "line2": "1-5-16 Takadanobaba",
+                "phone": "+813 3201 8968",
+                "postalCode": "169-0075",
+                "shippingAddress": false,
+                "town": "Tokio",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 35.7116188,
+                "longitude": 139.7082147
+              },
+              "name": "warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Electronics Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "electronics",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=electronics)(|\\&.*)$",
+          "(?i)^https?://electronics\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://localhost(:[\\d]+)?/rest/.*$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "isolated": true,
+        "locale": "en_GB",
+        "name": "Electronics Site Standalone",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "JPY",
+                "name": "Japanese Yen",
+                "symbol": "¥"
+              },
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "JP",
+                  "name": "Japan"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "1-5-16 Takadanobaba, Tokio, 169-0075",
+                "id": "8796100788247",
+                "line2": "1-5-16 Takadanobaba",
+                "phone": "+813 3201 8968",
+                "postalCode": "169-0075",
+                "shippingAddress": false,
+                "town": "Tokio",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 35.7116188,
+                "longitude": 139.7082147
+              },
+              "name": "warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Electronics Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "alpha",
+        "uid": "electronics-standalone",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=electronics-standalone)(|\\&.*)$",
+          "(?i)^https?://electronics-standalone\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://localhost(:[\\d]+)?/rest/.*$"
+        ]
+      },
+      {
+        "captchaConfig": {
+          "enabled": false
+        },
+        "channel": "B2C",
+        "defaultLanguage": {
+          "active": true,
+          "isocode": "en",
+          "name": "English",
+          "nativeName": "English"
+        },
+        "defaultPreviewCatalogId": "electronicsProductCatalog",
+        "defaultPreviewCategoryCode": "575",
+        "defaultPreviewProductCode": "2053367",
+        "isolated": false,
+        "name": "Spartacus Electronics Site",
+        "registrationEnabled": true,
+        "requiresAuthentication": false,
+        "stores": [
+          {
+            "createReturnProcessCode": "return-process",
+            "currencies": [
+              {
+                "active": false,
+                "isocode": "JPY",
+                "name": "Japanese Yen",
+                "symbol": "¥"
+              },
+              {
+                "active": true,
+                "isocode": "USD",
+                "name": "US Dollar",
+                "symbol": "$"
+              }
+            ],
+            "defaultCurrency": {
+              "active": true,
+              "isocode": "USD",
+              "name": "US Dollar",
+              "symbol": "$"
+            },
+            "defaultDeliveryOrigin": {
+              "address": {
+                "country": {
+                  "isocode": "JP",
+                  "name": "Japan"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "1-5-16 Takadanobaba, Tokio, 169-0075",
+                "id": "8796100788247",
+                "line2": "1-5-16 Takadanobaba",
+                "phone": "+813 3201 8968",
+                "postalCode": "169-0075",
+                "shippingAddress": false,
+                "town": "Tokio",
+                "visibleInAddressBook": true
+              },
+              "displayName": "Warehouse East",
+              "features": {},
+              "geoPoint": {
+                "latitude": 35.7116188,
+                "longitude": 139.7082147
+              },
+              "name": "warehouse_e",
+              "storeImages": []
+            },
+            "defaultLanguage": {
+              "active": true,
+              "isocode": "en",
+              "name": "English",
+              "nativeName": "English"
+            },
+            "deliveryModes": {
+              "deliveryModes": [
+                {
+                  "code": "premium-net",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-net",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "premium-gross",
+                  "description": "1-2 business days",
+                  "name": "Premium Delivery"
+                },
+                {
+                  "code": "standard-gross",
+                  "description": "3-5 business days",
+                  "name": "Standard Delivery"
+                },
+                {
+                  "code": "pickup"
+                },
+                {
+                  "code": "free-standard-shipping"
+                }
+              ]
+            },
+            "expressCheckoutEnabled": true,
+            "externalTaxEnabled": false,
+            "languages": [
+              {
+                "active": true,
+                "isocode": "ja",
+                "name": "Japanese",
+                "nativeName": "日本語"
+              },
+              {
+                "active": true,
+                "isocode": "en",
+                "name": "English",
+                "nativeName": "English"
+              },
+              {
+                "active": true,
+                "isocode": "de",
+                "name": "German",
+                "nativeName": "Deutsch"
+              },
+              {
+                "active": true,
+                "isocode": "zh",
+                "name": "Chinese",
+                "nativeName": "中文"
+              }
+            ],
+            "maxRadiusForPosSearch": 300,
+            "name": "Electronics Store",
+            "paymentProvider": "Mockup",
+            "submitOrderProcessCode": "order-process"
+          }
+        ],
+        "theme": "sparta",
+        "uid": "electronics-spa",
+        "urlEncodingAttributes": [
+          "storefront",
+          "language",
+          "currency"
+        ],
+        "urlPatterns": [
+          "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=electronics-spa)(|\\&.*)$",
+          "(?i)^https?://electronics-spa\\.[^/]+(|/.*|\\?.*)$",
+          "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://localhost(:[\\d]+)?/rest/.*$",
+          "(?i)^https?://[^/]+/electronics-spa(|/.*|\\?.*|#.*)$",
+          "(?i)^https?://localhost(:[\\d]+)?/?$",
+          "https?://[^/]+/electronics-spa(|/.*|\\?.*)$"
+        ]
+      }
+    ]
+  }
+}
